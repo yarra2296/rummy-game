@@ -1,0 +1,58 @@
+.header {
+    color: brown;
+    margin: 0;
+    text-align: center;
+}
+
+.subtitle {
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+
+.info_section_1 {
+    width: 50vw;
+    background: sandybrown;
+    border: 1px solid sandybrown;
+    box-shadow:
+            -2rem 2rem 2rem rgba(black, 0.8);
+    filter: blur(5);
+    transform: scale(1);
+    visibility: visible;
+    height: auto;
+    overflow-x: scroll;
+    background-color: aliceblue;
+    text-align: left;
+    background: rgba(255, 255, 255, 0.2);
+    z-index: 10000000;
+    overflow-y: scroll;
+}
+
+.bg_image {
+    background-image: url("../assets/images/guidelines.jpg");
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 25px;
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.points {
+    color: blue;
+}
+
+.list_points {
+    padding-top: 10px;
+}
+
+.closeModal {
+    width: 20px;
+    margin-left: 35vw;
+    margin-top: 10px;
+    padding: 15px
+}
+
+.buttonCloseHolder {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}

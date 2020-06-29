@@ -1,0 +1,95 @@
+.main{
+    min-height: 100%;
+    min-width: 100%;
+    z-index: -1;
+}
+
+.homeBackground {
+    background-image: url("../assets/images/Score_bg.jpg");
+    min-height: 100vh;
+    min-width: 100vw;
+    overflow: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px
+}
+
+.Score_header {
+    color: white
+}
+
+.side_heading_container {
+    margin-left: 22vw;
+}
+
+.side_headings {
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.content_row {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: left;
+}
+
+.score_button_entry {
+    margin-left: 24vw;
+    margin-right: 25vw;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.text_input1 {
+    border-radius: 5%;
+    border-color: aliceblue;
+    border-width: 0;
+    width: 22vw;
+    height: 30px;
+    max-width: 500px;
+    background-color: white;
+    padding-left: 15px;
+}
+
+.start_game_new {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.score_display_page {
+    text-align: left;
+    margin-left: 35px;
+    margin-right: 35px
+}
+
+.Score_header_second_page {
+    color: white;
+    text-align: center;
+}
+
+.sub_header {
+    color: white;
+    font-size: 18px;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.table_container {
+    margin-right: 50px !important;
+}
+
+.out_text {
+    color: red;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.winner_text {
+    color: silver;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+}

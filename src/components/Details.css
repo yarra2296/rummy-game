@@ -1,0 +1,77 @@
+.main{
+    min-height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+.homeBackground {
+    background-image: url("../assets/images/new_home_bg.jpg");
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px
+}
+
+.heading {
+    color: bisque;
+    margin: 0px;
+    margin-bottom: 50px;
+}
+
+.players_entry {
+    margin-left: 15vw;
+}
+
+.score_entry_form {
+    margin-top: 30px;
+}
+
+.text_input {
+    border-radius: 5%;
+    border-color: aliceblue;
+    border-width: 0;
+    width: 20vw;
+    height: 30px;
+    max-width: 500px;
+    background-color: white;
+    padding-left: 15px;
+}
+
+td {
+    color: bisque;
+}
+
+.row_display {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.buttonCloseHolderDetails {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 54vw;
+}
+
+.buttonClose {
+
+}
+
+.start_game_holder {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 125px;
+}
+
+.start_game {
+
+}
+
+.alert_status {
+    color: orange;
+    font-size: 20px;
+    margin-top: 15px;
+}

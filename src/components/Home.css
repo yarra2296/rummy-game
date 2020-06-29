@@ -1,0 +1,27 @@
+.main{
+    width: 100%;
+    min-height: 100vh;
+    z-index: -1;
+    overflow: scroll !important;
+}
+
+.homeBackground1 {
+    background-image: url("../assets/images/new_home_bg.jpg");
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px
+}
+
+.heading {
+    color: bisque;
+    margin: 0px;
+}
+
+.info_section {
+    position: fixed;
+    top: 30%;
+    left: 25%;
+    z-index: 10000;
+    overflow: scroll;
+}
